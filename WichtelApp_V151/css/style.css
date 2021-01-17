@@ -1,0 +1,28 @@
+﻿body {
+    font-family: "Century Gothic";
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 30%;
+    top: 35%;
+    width: 25%;
+    height: 20%;
+    overflow: auto;
+    border: 2px solid #000000;
+    padding-left: 10px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.3);
+}
+
+lbl_title {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    padding-bottom: 10px !important;
+}
